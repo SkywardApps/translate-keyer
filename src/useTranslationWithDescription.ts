@@ -3,6 +3,7 @@ import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import shorthash from 'short-hash-ts';
 import { getConfig } from './Initialize';
+import { KeyMap } from './KeyMap';
 
 export type TranslationProxyFunction = (key: string, description?: string, options?: TOptions) => TranslationProxy;
 
@@ -108,18 +109,6 @@ class TranslationProxy
 		return this.translated;
 	}
 }
-
-export const KeyMap: {
-  [ns: string]: {
-    [key: string]: {
-      key: string;
-      description: string | undefined;
-      taggedId: string;
-      reported: boolean;
-      checked: boolean;
-    };
-  };
-} = {};
 
 /**
  *

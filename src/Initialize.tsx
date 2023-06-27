@@ -7,6 +7,7 @@ export interface ITranslateKeyerConfig extends ITranslateKeyerParams {
 export interface ITranslateKeyerParams {
 	shouldRequireDescription?: boolean;
 	showInlineEdit?: boolean;
+	trackMissingLocalizations?: boolean;
   phraseProjectId?: string;
   phraseAccessToken?: string;
   phraseAccountId?: string;
@@ -16,6 +17,7 @@ let config: Readonly<ITranslateKeyerConfig> = {
 	showInlineEdit: false,
 	shouldRequireDescription: false,
 	canTranslate: false,
+	trackMissingLocalizations: false,
 	phraseProjectId: '',
 	phraseAccessToken: ''
 };
