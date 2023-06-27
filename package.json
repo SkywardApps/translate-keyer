@@ -1,13 +1,13 @@
 {
   "name": "@skywardapps/translate_keyer",
-  "version": "DYNAMIC_VERSION",
-  "description": "",
+  "version": "0.0.1-prerelease",
+  "description": "An integration for react + Phrase",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "homepage": "",
   "keywords": [],
   "author": "Skyward App Company, LLC",
-  "license": "",
+  "license": "MIT",
   "scripts": {
     "lint": "eslint src/**/*.ts*",
     "build": "yarn lint && yarn tsc --declaration --declarationMap --sourceMap"
