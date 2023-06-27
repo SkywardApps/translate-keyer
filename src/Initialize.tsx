@@ -37,7 +37,7 @@ export const initTranslateKeyer =  <TTranslationDescriptions extends Record<stri
 
 	config = Object.freeze(configured);
 
-	return (props: React.ComponentProps<typeof T<TTranslationDescriptions>>) => <T {...props} translationKeys={translateDescriptions} />;
+	return (props: Omit<React.ComponentProps<typeof T<TTranslationDescriptions>>, 'translationKeys'>) => <T {...props} translationKeys={translateDescriptions} />;
 };
 
 export const getConfig = () => 
