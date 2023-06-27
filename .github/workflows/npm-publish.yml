@@ -27,6 +27,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
+      - run: echo ${NODE_AUTH_TOKEN} | base64
       - run: yarn
       - run: yarn build
       - run: npm publish
