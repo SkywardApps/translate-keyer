@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+		"target": "es2019",
+		"module": "commonjs",
+		"outDir": "dist",
+		"sourceMap": true,
+		"allowSyntheticDefaultImports": true,    
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames":true,
+    "resolveJsonModule": true,
+		"jsx": "react-jsx"
+  },
+  "include": [
+		"src/**/*.ts"
+, "src/Initialize.tsx"	],
+	"exclude": [
+		".yarn",
+		"**/*.test.*"
+	]
+}

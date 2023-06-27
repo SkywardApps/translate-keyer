@@ -1,0 +1,15 @@
+.eslintrc.js
+.gitignore
+.jest.config.js
+yarn-error.log
+node_modules/
+**/*.test.*
+src/assets/TestData
+.circleci/
+.vscode/
+coverage/
+packages/
+reports/
+sonar-project.properties
+jest.config.js
+
