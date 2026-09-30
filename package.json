@@ -6,7 +6,7 @@
   "types": "./dist/index.d.ts",
   "homepage": "",
   "keywords": [],
-  "author": "Skyward App Company, LLC",
+  "author": "Nicholas Elliott (https://nicholasmtelliott.com)",
   "license": "MIT",
   "scripts": {
     "lint": "eslint src/**/*.ts*",
